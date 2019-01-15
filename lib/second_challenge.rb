@@ -11,6 +11,7 @@ def second_challenge
   m_arr = groceries[:meat].values
   g_arr = groceries[:grains].values
   
-  v_arr = 
-
+  v_arr = [d_arr, v_arr, m_arr, g_arr]
+  
+  v_arr.flatten
 end
