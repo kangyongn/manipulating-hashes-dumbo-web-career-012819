@@ -7,9 +7,9 @@ def second_challenge
   }
 
   d_arr = groceries[:dairy].values
-  vegetable_arr = groceries[:vegetable].values
-  meat_arr = groceries[:meat].values
-  grains_arr = groceries[:grains].values
+  v_arr = groceries[:vegetable].values
+  m_arr = groceries[:meat].values
+  g_arr = groceries[:grains].values
   
   
 
