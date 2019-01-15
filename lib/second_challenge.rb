@@ -6,12 +6,7 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  d_arr = groceries[:dairy].values
-  v_arr = groceries[:vegetable].values
-  m_arr = groceries[:meat].values
-  g_arr = groceries[:grains].values
-  
-  v_arr = [d_arr, v_arr, m_arr, g_arr]
-  
-  v_arr.flatten
+  groceries.each do |category, product|
+    product
+  end
 end
